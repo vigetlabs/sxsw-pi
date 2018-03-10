@@ -123,16 +123,6 @@ export default class Presentation extends React.Component {
             images.
           </Text>
           <br />
-
-          <Text
-            textSize="1.25em"
-            textAlign="left"
-            textColor="secondary"
-            margin="0 0 0 1em"
-          >
-            – If we have time, deploy our application so we can access it from
-            anywhere.
-          </Text>
         </Slide>
 
         <Slide transition={['slide', 'fade']} align="center center">
