@@ -15,6 +15,7 @@ import preloader from './preloader'
 const images = {
   linus: require('./assets/linus.png'),
   raspberryPi: require('./assets/raspberry-pi.jpg'),
+  resin: require('./assets/resin.png'),
   sxsw: require('./assets/sxsw.jpg')
 }
 
@@ -51,6 +52,21 @@ export default class Presentation extends React.Component {
       >
         <Slide transition={['fade']} bgColor="primary">
           <Heading textSize="1.5em" textColor="quaternary" lineHeight="1.25em">
+            Welcome! While we wait...
+          </Heading>
+          <br />
+          <br />
+
+          <List>
+            <ListItem textSize="1em">
+              Download Etcher at{' '}
+              <Link href="https://etcher.io/">etcher.io</Link>
+            </ListItem>
+          </List>
+        </Slide>
+
+        <Slide transition={['fade']} bgColor="primary">
+          <Heading textSize="1.5em" textColor="quaternary" lineHeight="1.25em">
             Exploring the Raspberry Pi Zero W
           </Heading>
           <br />
@@ -60,6 +76,7 @@ export default class Presentation extends React.Component {
 
           <br />
           <br />
+          <hr />
           <br />
 
           <Text textColor="quaternary" textSize="1em">
@@ -69,6 +86,10 @@ export default class Presentation extends React.Component {
           <Text textColor="quaternary" textSize="1em">
             Justin Sinichko <span className="spacer">|</span> Prayash Thapa
           </Text>
+
+          <br />
+
+          <Image width="20%" src={images.resin} />
         </Slide>
 
         <Slide transition={['slide', 'fade']}>
@@ -345,26 +366,6 @@ export default class Presentation extends React.Component {
             – Allows us to modularize and simplify our front-end into components
             that are easy to understand and play with separately.
           </Text>
-        </Slide>
-
-        <Slide transition={['fade']}>
-          <Heading textSize="2em" textAlign="left">
-            Some Extra Resources
-          </Heading>
-
-          <List>
-            <ListItem textSize="1em">
-              <Link href="https://viget.com">cool-link</Link>
-            </ListItem>
-
-            <ListItem textSize="1em">
-              <Link href="https://viget.com">cool-link</Link>
-            </ListItem>
-
-            <ListItem textSize="1em">
-              <Link href="https://viget.com">cool-link</Link>
-            </ListItem>
-          </List>
         </Slide>
 
         <Slide transition={['fade']}>
