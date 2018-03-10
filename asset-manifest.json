@@ -1,9 +1,10 @@
 {
   "main.css": "static/css/main.fd4e9038.css",
   "main.css.map": "static/css/main.fd4e9038.css.map",
-  "main.js": "static/js/main.5c87c9ab.js",
-  "main.js.map": "static/js/main.5c87c9ab.js.map",
+  "main.js": "static/js/main.0774c559.js",
+  "main.js.map": "static/js/main.0774c559.js.map",
   "static/media/linus.png": "static/media/linus.f7721737.png",
   "static/media/raspberry-pi.jpg": "static/media/raspberry-pi.58a5a2f0.jpg",
+  "static/media/resin.png": "static/media/resin.aabcdc02.png",
   "static/media/sxsw.jpg": "static/media/sxsw.22d8e7d2.jpg"
 }
